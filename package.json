@@ -4,19 +4,19 @@
     "description": "Simple CLI tool for OCR using Tesseract.js",
     "main": "ocr.js",
     "bin": {
-      "ocr-cli": "./ocr.js"
+        "ocr-cli": "./ocr.js"
     },
     "scripts": {
-      "start": "node ocr.js"
+        "start": "node ocr.js"
     },
     "keywords": [
-      "ocr",
-      "cli",
-      "tesseract"
+        "ocr",
+        "cli",
+        "tesseract"
     ],
     "author": "",
     "license": "Apache-2.0",
     "dependencies": {
-      "tesseract.js": "^4.1.1"
+        "tesseract.js": "^4.1.4"
     }
-  }
+}
